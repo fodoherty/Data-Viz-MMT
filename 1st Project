@@ -1,0 +1,77 @@
+void setup(){
+size(500,400);
+background(200,225,150);
+}
+void draw(){
+ if (mousePressed) {
+    background(200, 225, 150);
+  } 
+ 
+
+stroke(255,0,0);
+fill(0);
+ellipse(mouseX+80, mouseY+160, 200, 100);
+stroke(255,0,0);
+fill(20);
+ellipse(mouseX+90, mouseY+150, 200, 100);
+stroke(255,0,0);
+fill(40);
+ellipse(mouseX+100,mouseY+140, 200, 100);
+stroke(255,0,0);
+fill(60);
+ellipse(mouseX+110,mouseY+130, 200, 100);
+stroke(255,0,0);
+fill(80);
+ellipse(mouseX+120, mouseY+120, 200, 100);
+stroke(255,0,0);
+fill(100);
+ellipse(mouseX+130, mouseY+110, 200, 100);
+stroke(255,0,0);
+fill(120);
+ellipse(mouseX+140, mouseY+100, 200, 100);
+stroke(255,0,0);
+fill(140);
+ellipse(mouseX+150, mouseY+90, 200, 100);
+stroke(255,0,0);
+fill(150);
+ellipse(mouseX+160, mouseY+80, 200, 100);
+stroke(255,0,0);
+fill(160);
+ellipse(mouseX+170, mouseY+90, 200, 100);
+stroke(255,0,0);
+fill(170);
+ellipse(mouseX+180, mouseY+100,200, 100);
+stroke(255,0,0);
+fill(180);
+ellipse(mouseX+190, mouseY+110, 200, 100);
+stroke(255,0,0);
+fill(190);
+ellipse(mouseX+200, mouseY+120, 200, 100);
+stroke(255,0,0);
+fill(200);
+ellipse(mouseX+200, mouseY+120, 190, 90);
+stroke(255,0,0);
+fill(210);
+ellipse(mouseX+200, mouseY+120, 180, 80);
+stroke(255,0,0);
+fill(0);
+ellipse(mouseX+200, mouseY+120, 170, 70);
+stroke(255,0,0);
+fill(20);
+ellipse(mouseX+200, mouseY+120, 160, 60);
+stroke(255,0,0);
+fill(40);
+ellipse(mouseX+200, mouseY+120, 150, 50);
+stroke(255,0,0);
+fill(60);
+ellipse(mouseX+200, mouseY+120, 140, 40);
+stroke(255,0,0);
+fill(80);
+ellipse(mouseX+200, mouseY+120, 130, 30);
+stroke(255,0,0);
+fill(100);
+ellipse(mouseX+200, mouseY+120, 120, 20);
+stroke(255,0,0);
+fill(0,150,150);
+ellipse(mouseX+200, mouseY+120, 110, 10);
+}
